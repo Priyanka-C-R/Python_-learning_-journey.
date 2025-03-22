@@ -1,0 +1,19 @@
+print("priyanka")
+#
+num1=int(input("enter first number"))
+num2=int(input("enter second number"))
+add=num1+num2
+sub=num2-num2
+mul=num1*num2
+div=num1/num2
+floor_division=num1//num2
+modulus=num1%num2
+exponentiation=num1**num2
+print(f"additon of {num1} + {num2} = {add}")
+print(f"subtraction of {num1} - {num2} = {sub}")
+print(f"multiplication of {num1} * {num2} = {mul}")
+print(f"division of {num1} / {num2} = {div}")
+print(f"floor division of {num1} // {num2} = {floor_division}")
+print(f"modulus of {num1} % {num2} = {modulus}")
+print(f"exponentiation of {num1} ** {num2} = {exponentiation}")
+
