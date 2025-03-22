@@ -1,0 +1,27 @@
+# swapping two variables with using a third variable.
+# Define two variables
+a=8
+b=5
+# print values before swapping
+print('before swapping:')
+print(f"a = {a}, b = {b}\n")
+#swap the values using a third variable
+temp = a
+a = b
+b = temp
+#print value after swapping
+print('after swapping')
+print(f"a = {a}, b = {b}")
+
+# swapping two variables without using a third variable.
+# Define two variables
+a=10
+b=6
+# print values before swapping
+print('before swapping:')
+print(f"a = {a}, b = {b}\n")
+#swap the values without using a third variable
+a,b = b,a
+#print value after swapping
+print('after swapping')
+print(f"a = {a}, b = {b}")
