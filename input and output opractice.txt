@@ -1,0 +1,24 @@
+#Simple greeting program
+# 1. python program that asks user for their name and age, then prints a personalised greeting message. use both + operator and f string foroutput.
+#asks user for their name and age
+name = input("enter your name:")
+age = input("enter your age:")
+ 
+ # output using + operator
+print("hello, "+ name + "!  you are " + age + " years old.")
+
+# output using f string
+print(f"hello, " +  name +"! you are " + age + "years old.")
+
+# 2. python pragram that asks user for two numbers, add them together, and prints the result in a sentence. use both + operator and f string for output.
+num1 = float(input("enter first integer:"))
+num2 = float(input("enter second integer:"))
+
+# calculating the sum
+total = num1 + num2
+# output using + operator
+print("the sum of " + str(num1) + " and " + str(num2) + " is " + str(total) + ".")
+
+# output using f string 
+print(f"the sum of {num1} and {num2} is {total}.")
+           
